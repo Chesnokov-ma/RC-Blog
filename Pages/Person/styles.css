@@ -31,7 +31,6 @@
 	height: 100%;
 	display: grid;
 	place-items: center;
-	
 
 	/* border: 1px solid black; */
 }
@@ -43,6 +42,16 @@
 	font-size: 40px;
 }
 
+#source > a:hover {
+	color: rgba(0, 0, 0, 0.7);
+	transition: 0.2s;
+}
+
+#source > a:active {
+	color: rgba(0, 0, 0, 1);
+	transition: 0.2s;
+}
+
 .sun {
 	width: 20%;
 	height: 100%;
@@ -51,14 +60,13 @@
 	justify-content: center;
 	align-items: center;
 
-	cursor: pointer;
-
 	/* border: 1px solid black; */
 }
 
 .sun-ico {
-	width: 80%;
+	width: 27%;
 	height: 80%;
+	cursor: pointer;
 }
 
 /* .sun-ico:hover {
@@ -73,25 +81,26 @@
 	justify-content: center;
 	align-items: center;
 
-	background-color: black;
+	background-color: #282c34;
 }
 
 .text-box {
 	width: 90%;
 	height: 90%;
 	padding: 10px;
-	
+
 	font-family: 'Roboto', sans-serif;
-	color: white;
+	color: #a0b2bf;
 
 	border: 2px solid white;
 }
 
-.text-box > h1, .text {
+.text-box > h1,
+.text {
 	display: grid;
 	place-items: center;
 	font-size: 70px;
-} 
+}
 .novel {
 	display: grid;
 	place-items: center;
